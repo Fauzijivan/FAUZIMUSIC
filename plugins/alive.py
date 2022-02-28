@@ -38,14 +38,14 @@ async def start_(client: Client, message: Message):
 💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ ɴᴏʙɪᴛᴀ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴏʀ : [KULDIP RATHOD](https://t.me/AAPLI_YAARI)
-┣★ ᴜᴘᴅᴀᴛᴇs : [NOBITA SUPPORT](https://t.me/Nobita_shizuka_repo)
-┣★ sᴜᴘᴘᴏʀᴛ : [NOBITA CHAT](https://t.me/AAPLI_YAARI)
-┣★ ᴏᴡɴᴇʀ › : [NOBITA_XD](@Nobi_xxd)
+┣★ ᴄʀᴇᴀᴛᴏʀ : [FAUZI_JIVAN_N](https://t.me/ALL_THE_MUSKETEERS)
+┣★ ᴜᴘᴅᴀᴛᴇs : [FAUZI SUPPORT](https://t.me/FAUZI_SUPPORT)
+┣★ sᴜᴘᴘᴏʀᴛ : [FAUZI CHAT](https://t.me/ALL_THE_MUSKETEERS)
+┣★ ᴏᴡɴᴇʀ › : [FAUZI_JIVAN](@FAUZI_JIVAN_N)
 ┗━━━━━━━━━━━━━━━━━┛
 
 💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ [ʟᴇɢᴇɴᴅ ᴏᴡɴᴇʀ](https://t.me/AAPLI_YAARI) ...
+ᴅᴍ ᴛᴏ ᴍʏ [ʟᴇɢᴇɴᴅ ᴏᴡɴᴇʀ](https://t.me/ALL_THE_MUSKETEERS) ...
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
@@ -59,7 +59,7 @@ async def start_(client: Client, message: Message):
     )
     
     
-@Client.on_message(commandpro(["/start", "/alive", "NOBITA"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/start", "/alive", "FAUZI"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://te.legra.ph/file/1a85ce935e13e92706907.jpg",
